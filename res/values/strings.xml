@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">WorldTime</string>
+    <string name="search">Go</string>
+    <string name="hint">Enter the city name...</string>
+    <string name="about_label">About</string>
+    <string name="settings_label">Settings</string>
+    <string name="about_text">Allows you to see current time and
+							  weather conditions of any city in 
+							  the world. Just enter the name 
+							  of the city and it will show you 
+							  the time in 24hr format. It also 
+							  finds out the current weather 
+							  i.e. Temperature, Humidity, Wind
+							  and Condition, from the nearest 
+							  Observatory. WorldTime thus benefits
+							  you in scheduling your travel plans...</string>
+							  
+</resources>

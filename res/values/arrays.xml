@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_format">
+        <item>31-12-2000</item>
+        <item>12-31-2000</item>
+        <item>2000-12-31</item>
+        <item>31 Dec, 2000</item>
+        <item>Dec 31, 2000</item>
+        <item>Sun, Dec 31</item>
+        <item>Sunday, Dec 31</item>
+    </string-array>
+    <string-array name="time_format">
+        <item>24hr clock</item>
+        <item>12hr clock</item>
+    </string-array>
+</resources>

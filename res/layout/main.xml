@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/wall5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+    <EditText 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/cityname" 
+    	android:layout_width="fill_parent" 
+    	android:hint="@string/hint" 
+    	android:layout_marginTop="2dp" 
+    	android:layout_marginLeft="1dp" 
+    	android:layout_marginRight="1dp">
+        <requestFocus></requestFocus>
+    </EditText>
+<LinearLayout 
+	android:id="@+id/linearLayout1" 
+	android:layout_width="match_parent"
+	android:weightSum="1" 
+	android:orientation="horizontal" 
+	android:layout_height="wrap_content">
+	  
+	<Button 
+		android:layout_height="wrap_content" 
+		android:id="@+id/search" 
+		 
+		
+		android:layout_width="match_parent" 
+		android:text="Go" 
+		android:layout_marginLeft="1dp" 
+		android:layout_marginRight="1dp" >
+		
+	</Button>
+</LinearLayout>
+<LinearLayout 
+	android:id="@+id/linearLayout2" 
+	android:layout_width="match_parent" 
+	android:layout_weight=".12" 
+	android:weightSum="1" 
+	android:layout_height="17dp">
+	
+    <TextView
+        android:id="@+id/countryView"
+        android:layout_width="148dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:textColor="#4169e1"
+        android:textSize="22dp"
+        android:textStyle="normal" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.42"
+        android:textColor="#191970"
+        android:textSize="22dp"
+        android:textStyle="normal" >
+>
+    </TextView>
+</LinearLayout>
+
+<LinearLayout 
+	android:id="@+id/linearLayout2" 
+	android:layout_width="match_parent" 
+	android:weightSum="1" 
+	android:layout_height="17dp" 
+	android:layout_weight="0.25">
+	<ImageView 
+    	android:id="@+id/weatherImage" 
+    	android:layout_height="match_parent" 
+    	android:layout_width="match_parent">
+    </ImageView>
+</LinearLayout>
+
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_weight="0.57" 
+	android:weightSum="1" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/linearLayout3" 
+	android:layout_width="match_parent"
+	>
+    
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="126dp" 
+    	android:layout_weight="0.17" 
+    	android:id="@+id/tempView" 
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:textColor="#4169e1">
+    </TextView>
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="306dp" 
+    	android:layout_weight="0.76" 
+    	android:id="@+id/weatherView" 
+    	android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:textColor="#4169e1">
+    </TextView>
+</LinearLayout>
+
+</LinearLayout>
